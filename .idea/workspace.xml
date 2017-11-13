@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f11ac83-589e-4f11-a829-7fdab65f350c" name="Default" comment="" />
+    <ignored path="unimeds.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="unimeds" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/management/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#84#0" expanded="true" />
+                <marker date="1510582299868" expanded="true" signature="1726:1782" ph="SELECT * fro... auth_user" />
+                <marker date="1510582299868" expanded="true" signature="1784:1785" ph="SELECT * fro... auth_user" />
+                <marker date="1510582299868" expanded="true" signature="2686:2736" ph="SELECT Quant... cart" />
+                <marker date="1510582299868" expanded="true" signature="2686:2737" ph="SELECT Batch... cart" />
+                <marker date="1510582299868" expanded="true" signature="2910:2957" ph="DELETE FROM " />
+                <marker date="1510582299868" expanded="true" signature="3036:3106" ph="UPDATE Batch... " />
+                <marker date="1510582299868" expanded="true" signature="4273:4313" ph="SELECT * FRO... Customer" />
+                <marker date="1510582299868" expanded="true" signature="4737:4781" ph="SELECT id FR... auth_user" />
+                <marker date="1510582299868" expanded="true" signature="4925:4996" ph="INSERT INTO Customer... " />
+                <marker date="1510582299868" expanded="true" signature="4925:4998" ph="INSERT INTO Customer... " />
+                <marker date="1510582299868" expanded="true" signature="4925:5002" ph="INSERT INTO Customer... " />
+                <marker date="1510582299868" expanded="true" signature="4925:5075" ph="INSERT INTO Customer... " />
+                <marker date="1510582299868" expanded="true" signature="5828:5860" ph="SELECT * FRO... Cart" />
+                <marker date="1510582299868" expanded="true" signature="5828:5877" ph="SELECT * FRO... Cart" />
+                <marker date="1510582299868" expanded="true" signature="5828:5878" ph="SELECT * FRO... Cart" />
+                <marker date="1510582299868" expanded="true" signature="5828:5879" ph="SELECT * FRO... Cart" />
+                <marker date="1510582299868" expanded="true" signature="6015:6049" ph="UPDATE Cart " />
+                <marker date="1510582299868" expanded="true" signature="6015:6050" ph="UPDATE Cart " />
+                <marker date="1510582299868" expanded="true" signature="6015:6051" ph="UPDATE Cart " />
+                <marker date="1510582299868" expanded="true" signature="6015:6065" ph="UPDATE Cart " />
+                <marker date="1510582299868" expanded="true" signature="6015:6082" ph="UPDATE Cart " />
+                <marker date="1510582299868" expanded="true" signature="6168:6238" ph="UPDATE Cart " />
+                <marker date="1510582299868" expanded="true" signature="6355:6367" ph="INSERT INTO uSER... " />
+                <marker date="1510582299868" expanded="true" signature="6355:6390" ph="INSERT INTO User_Cart... " />
+                <marker date="1510582299868" expanded="true" signature="6473:6543" ph="UPDATE Cart " />
+                <marker date="1510582299868" expanded="true" signature="6747:6915" ph="SELECT * FRO... Cart" />
+                <marker date="1510582299868" expanded="true" signature="6747:6957" ph="SELECT p.Nam... Cart" />
+                <marker date="1510582299868" expanded="true" signature="7735:7791" ph="SELECT Quant... cart" />
+                <marker date="1510582299868" expanded="true" signature="7916:7950" ph="DELETE FROM " />
+                <marker date="1510582299868" expanded="true" signature="7916:7963" ph="DELETE FROM " />
+                <marker date="1510582299868" expanded="true" signature="8031:8101" ph="UPDATE Batch... " />
+                <marker date="1510582299868" expanded="true" signature="8442:8686" ph="SELECT p.Nam... Product_details" />
+                <marker date="1510582299868" expanded="true" signature="8442:8704" ph="SELECT p.Nam... Product_details" />
+                <marker date="1510582299868" expanded="true" signature="8442:8715" ph="SELECT p.Nam... Product_details" />
+                <marker date="1510582299868" expanded="true" signature="8442:8726" ph="SELECT p.Nam... Product_details" />
+                <marker date="1510582299868" expanded="true" signature="9559:9837" ph="SELECT p.Nam... Product_details" />
+                <marker date="1510582299868" expanded="true" signature="9559:9852" ph="SELECT p.Nam... Product_details" />
+                <marker date="1510582299868" expanded="true" signature="9559:9874" ph="SELECT p.Nam... Product_details" />
+                <marker date="1510582299868" expanded="true" signature="10715:10977" ph="SELECT p.Nam... Product_details" />
+                <marker date="1510582299868" expanded="true" signature="10715:10995" ph="SELECT p.Nam... Product_details" />
+                <marker date="1510582299868" expanded="true" signature="10715:11009" ph="SELECT p.Nam... Product_details" />
+                <marker date="1510582299868" expanded="true" signature="10715:11031" ph="SELECT p.Nam... Product_details" />
+                <marker date="1510582299868" expanded="true" signature="11876:12165" ph="SELECT p.Nam... Product_details" />
+                <marker date="1510582299868" expanded="true" signature="11876:12187" ph="SELECT p.Nam... Product_details" />
+                <marker date="1510582299868" expanded="true" signature="13981:14028" ph="SELECT * FRO... Medicine_Details" />
+                <marker date="1510582299868" expanded="true" signature="14139:14190" ph="InSERT INTO Medicine_Details... " />
+                <marker date="1510582299868" expanded="true" signature="14261:14306" ph="SELECT * FRO... Product_Details" />
+                <marker date="1510582299868" expanded="true" signature="14416:14482" ph="INSERT INTO Product_Details... " />
+                <marker date="1510582299868" expanded="true" signature="14617:14668" ph="SELECT * FRO... Compartment" />
+                <marker date="1510582299868" expanded="true" signature="14810:14847" ph="INSERT INTO Compartment... " />
+                <marker date="1510582299868" expanded="true" signature="14922:14959" ph="SELECT * FRO... WholeSeller" />
+                <marker date="1510582299868" expanded="true" signature="14922:14961" ph="SELECT * FRO... WholeSeller" />
+                <marker date="1510582299868" expanded="true" signature="15076:15128" ph="INSERT INTO WholeSeller... " />
+                <marker date="1510582299868" expanded="true" signature="15241:15282" ph="SELECT * FRO... Purchase_Record" />
+                <marker date="1510582299868" expanded="true" signature="15241:15284" ph="SELECT * FRO... Purchase_Record" />
+                <marker date="1510582299868" expanded="true" signature="15396:15448" ph="INSERT INTO Purchase_Record... " />
+                <marker date="1510582299868" expanded="true" signature="15538:15644" ph="INSERT INTO Batch_Details... " />
+                <marker date="1510582299868" expanded="true" signature="15538:15648" ph="INSERT INTO Batch_Details... " />
+                <marker date="1510582299868" expanded="true" signature="15538:15684" ph="INSERT INTO Batch_Details... " />
+                <marker date="1510582299868" expanded="true" signature="16197:16241" ph="SELECT * FRO... Repl_Record" />
+                <marker date="1510582299868" expanded="true" signature="16463:16503" ph="DELETE FROM " />
+                <marker date="1510582299868" expanded="true" signature="16693:16990" ph="SELECT p.Nam... Product_details" />
+                <marker date="1510582299868" expanded="true" signature="17941:18256" ph="SELECT p.Nam... Product_details" />
+                <marker date="1510582299868" expanded="true" signature="19607:19694" ph="UPDATE Produ... " />
+                <marker date="1510582299868" expanded="true" signature="19787:19860" ph="UPDATE Medic... " />
+                <marker date="1510582299868" expanded="true" signature="19927:19999" ph="Update Batch... " />
+                <marker date="1510582299868" expanded="true" signature="20567:20604" ph="SELECT * FRO... WholeSeller" />
+                <marker date="1510582299868" expanded="true" signature="20855:20909" ph="INSERT INTO WholeSeller... " />
+                <marker date="1510582299868" expanded="true" signature="21438:21564" ph="SELECT b.Who... Batch_Details" />
+                <marker date="1510582299868" expanded="true" signature="21751:21806" ph="UPDATE Batch... " />
+                <marker date="1510582299868" expanded="true" signature="21868:21954" ph="INSERT INTO Repl_Record... " />
+                <marker date="1510582299868" expanded="true" signature="22379:22414" ph="DELETE FROM " />
+                <marker date="1510582299868" expanded="true" signature="22632:22829" ph="SELECT p.Nam... Product_Details" />
+                <marker date="1510582299868" expanded="true" signature="23425:23450" ph="SELECT * FRO... WholeSeller" />
+                <marker date="1510582299868" expanded="true" signature="24005:24116" ph="SELECT p.PRI... Purchase_Record" />
+                <marker date="1510582299868" expanded="true" signature="24681:24836" ph="SELECT p.PRI... " />
+                <marker date="1510582299868" expanded="true" signature="25468:25516" ph="SELECT Batch... SR_Prod" />
+                <marker date="1510582299868" expanded="true" signature="25700:25745" ph="SELECT Name Batch_Details" />
+                <marker date="1510582299868" expanded="true" signature="26287:26339" ph="SELECT Batch... Cart" />
+                <marker date="1510582299868" expanded="true" signature="26512:26607" ph="INSERT INTO Sale_Record... " />
+                <marker date="1510582299868" expanded="true" signature="26690:26746" ph="SELECT SRID Sale_Record" />
+                <marker date="1510582299868" expanded="true" signature="26690:26750" ph="SELECT SRID Sale_Record" />
+                <marker date="1510582299868" expanded="true" signature="27007:27026" ph="INSERT INTO SR_Prod... " />
+                <marker date="1510582299868" expanded="true" signature="27007:27043" ph="INSERT INTO SR_Prod... " />
+                <marker date="1510582299868" expanded="true" signature="27119:27141" ph="DELETE FROM " />
+                <marker date="1510582299868" expanded="true" signature="27119:27153" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminhome.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/adminhome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/cart.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="39" column="86" selection-start-line="39" selection-start-column="86" selection-end-line="39" selection-end-column="86" />
+              <folding>
+                <element signature="n#style#0;n#span#1;n#span#0;n#form#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/unimeds/settings.py" />
+        <option value="$PROJECT_DIR$/templates/Empty.html" />
+        <option value="$PROJECT_DIR$/templates/PCProducts.html" />
+        <option value="$PROJECT_DIR$/templates/Medicines.html" />
+        <option value="$PROJECT_DIR$/templates/babyproducts.html" />
+        <option value="$PROJECT_DIR$/templates/product.html" />
+        <option value="$PROJECT_DIR$/templates/editproduct.html" />
+        <option value="$PROJECT_DIR$/templates/showwholeseller.html" />
+        <option value="$PROJECT_DIR$/templates/purchaserecords.html" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/showreplaceprod.html" />
+        <option value="$PROJECT_DIR$/templates/adminbase.html" />
+        <option value="$PROJECT_DIR$/templates/showsalerecord.html" />
+        <option value="$PROJECT_DIR$/templates/Register.html" />
+        <option value="$PROJECT_DIR$/templates/addwholeseller.html" />
+        <option value="$PROJECT_DIR$/templates/updateproduct.html" />
+        <option value="$PROJECT_DIR$/templates/adminhome.html" />
+        <option value="$PROJECT_DIR$/templates/addproduct.html" />
+        <option value="$PROJECT_DIR$/templates/contact.html" />
+        <option value="$PROJECT_DIR$/unimeds/urls.py" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/management/views.py" />
+        <option value="$PROJECT_DIR$/templates/about.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/cart.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyCompatibilityInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unimeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unimeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unimeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unimeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unimeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unimeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unimeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unimeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unimeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unimeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unimeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unimeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RunManager" selected="Django server.unimeds">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="unimeds" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="unimeds" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="unimeds" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="unimeds" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="unimeds" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="unimeds" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="unimeds" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="unimeds" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="unimeds" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="unimeds" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="unimeds" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="unimeds" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="unimeds" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Django server.unimeds" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f11ac83-589e-4f11-a829-7fdab65f350c" name="Default" comment="" />
+      <created>1509109620094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509109620094</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15191898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15191898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/management/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="46" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#84#0" expanded="true" />
+            <marker date="1510582299868" expanded="true" signature="1726:1782" ph="SELECT * fro... auth_user" />
+            <marker date="1510582299868" expanded="true" signature="1784:1785" ph="SELECT * fro... auth_user" />
+            <marker date="1510582299868" expanded="true" signature="2686:2736" ph="SELECT Quant... cart" />
+            <marker date="1510582299868" expanded="true" signature="2686:2737" ph="SELECT Batch... cart" />
+            <marker date="1510582299868" expanded="true" signature="2910:2957" ph="DELETE FROM " />
+            <marker date="1510582299868" expanded="true" signature="3036:3106" ph="UPDATE Batch... " />
+            <marker date="1510582299868" expanded="true" signature="4273:4313" ph="SELECT * FRO... Customer" />
+            <marker date="1510582299868" expanded="true" signature="4737:4781" ph="SELECT id FR... auth_user" />
+            <marker date="1510582299868" expanded="true" signature="4925:4996" ph="INSERT INTO Customer... " />
+            <marker date="1510582299868" expanded="true" signature="4925:4998" ph="INSERT INTO Customer... " />
+            <marker date="1510582299868" expanded="true" signature="4925:5002" ph="INSERT INTO Customer... " />
+            <marker date="1510582299868" expanded="true" signature="4925:5075" ph="INSERT INTO Customer... " />
+            <marker date="1510582299868" expanded="true" signature="5828:5860" ph="SELECT * FRO... Cart" />
+            <marker date="1510582299868" expanded="true" signature="5828:5877" ph="SELECT * FRO... Cart" />
+            <marker date="1510582299868" expanded="true" signature="5828:5878" ph="SELECT * FRO... Cart" />
+            <marker date="1510582299868" expanded="true" signature="5828:5879" ph="SELECT * FRO... Cart" />
+            <marker date="1510582299868" expanded="true" signature="6015:6049" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6015:6050" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6015:6051" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6015:6065" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6015:6082" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6168:6238" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6355:6367" ph="INSERT INTO uSER... " />
+            <marker date="1510582299868" expanded="true" signature="6355:6390" ph="INSERT INTO User_Cart... " />
+            <marker date="1510582299868" expanded="true" signature="6473:6543" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6747:6915" ph="SELECT * FRO... Cart" />
+            <marker date="1510582299868" expanded="true" signature="6747:6957" ph="SELECT p.Nam... Cart" />
+            <marker date="1510582299868" expanded="true" signature="7735:7791" ph="SELECT Quant... cart" />
+            <marker date="1510582299868" expanded="true" signature="7916:7950" ph="DELETE FROM " />
+            <marker date="1510582299868" expanded="true" signature="7916:7963" ph="DELETE FROM " />
+            <marker date="1510582299868" expanded="true" signature="8031:8101" ph="UPDATE Batch... " />
+            <marker date="1510582299868" expanded="true" signature="8442:8686" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="8442:8704" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="8442:8715" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="8442:8726" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="9559:9837" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="9559:9852" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="9559:9874" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="10715:10977" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="10715:10995" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="10715:11009" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="10715:11031" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="11876:12165" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="11876:12187" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="13981:14028" ph="SELECT * FRO... Medicine_Details" />
+            <marker date="1510582299868" expanded="true" signature="14139:14190" ph="InSERT INTO Medicine_Details... " />
+            <marker date="1510582299868" expanded="true" signature="14261:14306" ph="SELECT * FRO... Product_Details" />
+            <marker date="1510582299868" expanded="true" signature="14416:14482" ph="INSERT INTO Product_Details... " />
+            <marker date="1510582299868" expanded="true" signature="14617:14668" ph="SELECT * FRO... Compartment" />
+            <marker date="1510582299868" expanded="true" signature="14810:14847" ph="INSERT INTO Compartment... " />
+            <marker date="1510582299868" expanded="true" signature="14922:14959" ph="SELECT * FRO... WholeSeller" />
+            <marker date="1510582299868" expanded="true" signature="14922:14961" ph="SELECT * FRO... WholeSeller" />
+            <marker date="1510582299868" expanded="true" signature="15076:15128" ph="INSERT INTO WholeSeller... " />
+            <marker date="1510582299868" expanded="true" signature="15241:15282" ph="SELECT * FRO... Purchase_Record" />
+            <marker date="1510582299868" expanded="true" signature="15241:15284" ph="SELECT * FRO... Purchase_Record" />
+            <marker date="1510582299868" expanded="true" signature="15396:15448" ph="INSERT INTO Purchase_Record... " />
+            <marker date="1510582299868" expanded="true" signature="15538:15644" ph="INSERT INTO Batch_Details... " />
+            <marker date="1510582299868" expanded="true" signature="15538:15648" ph="INSERT INTO Batch_Details... " />
+            <marker date="1510582299868" expanded="true" signature="15538:15684" ph="INSERT INTO Batch_Details... " />
+            <marker date="1510582299868" expanded="true" signature="16197:16241" ph="SELECT * FRO... Repl_Record" />
+            <marker date="1510582299868" expanded="true" signature="16463:16503" ph="DELETE FROM " />
+            <marker date="1510582299868" expanded="true" signature="16693:16990" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="17941:18256" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="19607:19694" ph="UPDATE Produ... " />
+            <marker date="1510582299868" expanded="true" signature="19787:19860" ph="UPDATE Medic... " />
+            <marker date="1510582299868" expanded="true" signature="19927:19999" ph="Update Batch... " />
+            <marker date="1510582299868" expanded="true" signature="20567:20604" ph="SELECT * FRO... WholeSeller" />
+            <marker date="1510582299868" expanded="true" signature="20855:20909" ph="INSERT INTO WholeSeller... " />
+            <marker date="1510582299868" expanded="true" signature="21438:21564" ph="SELECT b.Who... Batch_Details" />
+            <marker date="1510582299868" expanded="true" signature="21751:21806" ph="UPDATE Batch... " />
+            <marker date="1510582299868" expanded="true" signature="21868:21954" ph="INSERT INTO Repl_Record... " />
+            <marker date="1510582299868" expanded="true" signature="22379:22414" ph="DELETE FROM " />
+            <marker date="1510582299868" expanded="true" signature="22632:22829" ph="SELECT p.Nam... Product_Details" />
+            <marker date="1510582299868" expanded="true" signature="23425:23450" ph="SELECT * FRO... WholeSeller" />
+            <marker date="1510582299868" expanded="true" signature="24005:24116" ph="SELECT p.PRI... Purchase_Record" />
+            <marker date="1510582299868" expanded="true" signature="24681:24836" ph="SELECT p.PRI... " />
+            <marker date="1510582299868" expanded="true" signature="25468:25516" ph="SELECT Batch... SR_Prod" />
+            <marker date="1510582299868" expanded="true" signature="25700:25745" ph="SELECT Name Batch_Details" />
+            <marker date="1510582299868" expanded="true" signature="26287:26339" ph="SELECT Batch... Cart" />
+            <marker date="1510582299868" expanded="true" signature="26512:26607" ph="INSERT INTO Sale_Record... " />
+            <marker date="1510582299868" expanded="true" signature="26690:26746" ph="SELECT SRID Sale_Record" />
+            <marker date="1510582299868" expanded="true" signature="26690:26750" ph="SELECT SRID Sale_Record" />
+            <marker date="1510582299868" expanded="true" signature="27007:27026" ph="INSERT INTO SR_Prod... " />
+            <marker date="1510582299868" expanded="true" signature="27007:27043" ph="INSERT INTO SR_Prod... " />
+            <marker date="1510582299868" expanded="true" signature="27119:27141" ph="DELETE FROM " />
+            <marker date="1510582299868" expanded="true" signature="27119:27153" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unimeds/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/updateproduct.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="95" column="89" selection-start-line="95" selection-start-column="89" selection-end-line="95" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2312">
+          <caret line="136" column="76" selection-start-line="136" selection-start-column="76" selection-end-line="136" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="51" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unimeds/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="74" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="15" selection-start-line="96" selection-start-column="15" selection-end-line="96" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminbase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="31" selection-start-line="76" selection-start-column="20" selection-end-line="80" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#84#0" expanded="true" />
+            <marker date="1510582299868" expanded="true" signature="1726:1782" ph="SELECT * fro... auth_user" />
+            <marker date="1510582299868" expanded="true" signature="1784:1785" ph="SELECT * fro... auth_user" />
+            <marker date="1510582299868" expanded="true" signature="2686:2736" ph="SELECT Quant... cart" />
+            <marker date="1510582299868" expanded="true" signature="2686:2737" ph="SELECT Batch... cart" />
+            <marker date="1510582299868" expanded="true" signature="2910:2957" ph="DELETE FROM " />
+            <marker date="1510582299868" expanded="true" signature="3036:3106" ph="UPDATE Batch... " />
+            <marker date="1510582299868" expanded="true" signature="4273:4313" ph="SELECT * FRO... Customer" />
+            <marker date="1510582299868" expanded="true" signature="4737:4781" ph="SELECT id FR... auth_user" />
+            <marker date="1510582299868" expanded="true" signature="4925:4996" ph="INSERT INTO Customer... " />
+            <marker date="1510582299868" expanded="true" signature="4925:4998" ph="INSERT INTO Customer... " />
+            <marker date="1510582299868" expanded="true" signature="4925:5002" ph="INSERT INTO Customer... " />
+            <marker date="1510582299868" expanded="true" signature="4925:5075" ph="INSERT INTO Customer... " />
+            <marker date="1510582299868" expanded="true" signature="5828:5860" ph="SELECT * FRO... Cart" />
+            <marker date="1510582299868" expanded="true" signature="5828:5877" ph="SELECT * FRO... Cart" />
+            <marker date="1510582299868" expanded="true" signature="5828:5878" ph="SELECT * FRO... Cart" />
+            <marker date="1510582299868" expanded="true" signature="5828:5879" ph="SELECT * FRO... Cart" />
+            <marker date="1510582299868" expanded="true" signature="6015:6049" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6015:6050" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6015:6051" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6015:6065" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6015:6082" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6168:6238" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6355:6367" ph="INSERT INTO uSER... " />
+            <marker date="1510582299868" expanded="true" signature="6355:6390" ph="INSERT INTO User_Cart... " />
+            <marker date="1510582299868" expanded="true" signature="6473:6543" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6747:6915" ph="SELECT * FRO... Cart" />
+            <marker date="1510582299868" expanded="true" signature="6747:6957" ph="SELECT p.Nam... Cart" />
+            <marker date="1510582299868" expanded="true" signature="7735:7791" ph="SELECT Quant... cart" />
+            <marker date="1510582299868" expanded="true" signature="7916:7950" ph="DELETE FROM " />
+            <marker date="1510582299868" expanded="true" signature="7916:7963" ph="DELETE FROM " />
+            <marker date="1510582299868" expanded="true" signature="8031:8101" ph="UPDATE Batch... " />
+            <marker date="1510582299868" expanded="true" signature="8442:8686" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="8442:8704" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="8442:8715" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="8442:8726" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="9559:9837" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="9559:9852" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="9559:9874" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="10715:10977" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="10715:10995" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="10715:11009" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="10715:11031" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="11876:12165" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="11876:12187" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="13981:14028" ph="SELECT * FRO... Medicine_Details" />
+            <marker date="1510582299868" expanded="true" signature="14139:14190" ph="InSERT INTO Medicine_Details... " />
+            <marker date="1510582299868" expanded="true" signature="14261:14306" ph="SELECT * FRO... Product_Details" />
+            <marker date="1510582299868" expanded="true" signature="14416:14482" ph="INSERT INTO Product_Details... " />
+            <marker date="1510582299868" expanded="true" signature="14617:14668" ph="SELECT * FRO... Compartment" />
+            <marker date="1510582299868" expanded="true" signature="14810:14847" ph="INSERT INTO Compartment... " />
+            <marker date="1510582299868" expanded="true" signature="14922:14959" ph="SELECT * FRO... WholeSeller" />
+            <marker date="1510582299868" expanded="true" signature="14922:14961" ph="SELECT * FRO... WholeSeller" />
+            <marker date="1510582299868" expanded="true" signature="15076:15128" ph="INSERT INTO WholeSeller... " />
+            <marker date="1510582299868" expanded="true" signature="15241:15282" ph="SELECT * FRO... Purchase_Record" />
+            <marker date="1510582299868" expanded="true" signature="15241:15284" ph="SELECT * FRO... Purchase_Record" />
+            <marker date="1510582299868" expanded="true" signature="15396:15448" ph="INSERT INTO Purchase_Record... " />
+            <marker date="1510582299868" expanded="true" signature="15538:15644" ph="INSERT INTO Batch_Details... " />
+            <marker date="1510582299868" expanded="true" signature="15538:15648" ph="INSERT INTO Batch_Details... " />
+            <marker date="1510582299868" expanded="true" signature="15538:15684" ph="INSERT INTO Batch_Details... " />
+            <marker date="1510582299868" expanded="true" signature="16197:16241" ph="SELECT * FRO... Repl_Record" />
+            <marker date="1510582299868" expanded="true" signature="16463:16503" ph="DELETE FROM " />
+            <marker date="1510582299868" expanded="true" signature="16693:16990" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="17941:18256" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="19607:19694" ph="UPDATE Produ... " />
+            <marker date="1510582299868" expanded="true" signature="19787:19860" ph="UPDATE Medic... " />
+            <marker date="1510582299868" expanded="true" signature="19927:19999" ph="Update Batch... " />
+            <marker date="1510582299868" expanded="true" signature="20567:20604" ph="SELECT * FRO... WholeSeller" />
+            <marker date="1510582299868" expanded="true" signature="20855:20909" ph="INSERT INTO WholeSeller... " />
+            <marker date="1510582299868" expanded="true" signature="21438:21564" ph="SELECT b.Who... Batch_Details" />
+            <marker date="1510582299868" expanded="true" signature="21751:21806" ph="UPDATE Batch... " />
+            <marker date="1510582299868" expanded="true" signature="21868:21954" ph="INSERT INTO Repl_Record... " />
+            <marker date="1510582299868" expanded="true" signature="22379:22414" ph="DELETE FROM " />
+            <marker date="1510582299868" expanded="true" signature="22632:22829" ph="SELECT p.Nam... Product_Details" />
+            <marker date="1510582299868" expanded="true" signature="23425:23450" ph="SELECT * FRO... WholeSeller" />
+            <marker date="1510582299868" expanded="true" signature="24005:24116" ph="SELECT p.PRI... Purchase_Record" />
+            <marker date="1510582299868" expanded="true" signature="24681:24836" ph="SELECT p.PRI... " />
+            <marker date="1510582299868" expanded="true" signature="25468:25516" ph="SELECT Batch... SR_Prod" />
+            <marker date="1510582299868" expanded="true" signature="25700:25745" ph="SELECT Name Batch_Details" />
+            <marker date="1510582299868" expanded="true" signature="26287:26339" ph="SELECT Batch... Cart" />
+            <marker date="1510582299868" expanded="true" signature="26512:26607" ph="INSERT INTO Sale_Record... " />
+            <marker date="1510582299868" expanded="true" signature="26690:26746" ph="SELECT SRID Sale_Record" />
+            <marker date="1510582299868" expanded="true" signature="26690:26750" ph="SELECT SRID Sale_Record" />
+            <marker date="1510582299868" expanded="true" signature="27007:27026" ph="INSERT INTO SR_Prod... " />
+            <marker date="1510582299868" expanded="true" signature="27007:27043" ph="INSERT INTO SR_Prod... " />
+            <marker date="1510582299868" expanded="true" signature="27119:27141" ph="DELETE FROM " />
+            <marker date="1510582299868" expanded="true" signature="27119:27153" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unimeds/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unimeds/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unimeds/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unimeds/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Empty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#435#442#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/PCProducts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Medicines.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/babyproducts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="37" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/showwholeseller.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unimeds/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/showreplaceprod.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="56" column="66" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/showsalerecord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/purchaserecords.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/editproduct.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/updateproduct.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="111" column="72" selection-start-line="111" selection-start-column="58" selection-end-line="111" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/addwholeseller.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="77" column="72" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/addproduct.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4063">
+          <caret line="239" column="72" selection-start-line="239" selection-start-column="72" selection-end-line="239" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminbase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unimeds/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#84#0" expanded="true" />
+            <marker date="1510582299868" expanded="true" signature="1726:1782" ph="SELECT * fro... auth_user" />
+            <marker date="1510582299868" expanded="true" signature="1784:1785" ph="SELECT * fro... auth_user" />
+            <marker date="1510582299868" expanded="true" signature="2686:2736" ph="SELECT Quant... cart" />
+            <marker date="1510582299868" expanded="true" signature="2686:2737" ph="SELECT Batch... cart" />
+            <marker date="1510582299868" expanded="true" signature="2910:2957" ph="DELETE FROM " />
+            <marker date="1510582299868" expanded="true" signature="3036:3106" ph="UPDATE Batch... " />
+            <marker date="1510582299868" expanded="true" signature="4273:4313" ph="SELECT * FRO... Customer" />
+            <marker date="1510582299868" expanded="true" signature="4737:4781" ph="SELECT id FR... auth_user" />
+            <marker date="1510582299868" expanded="true" signature="4925:4996" ph="INSERT INTO Customer... " />
+            <marker date="1510582299868" expanded="true" signature="4925:4998" ph="INSERT INTO Customer... " />
+            <marker date="1510582299868" expanded="true" signature="4925:5002" ph="INSERT INTO Customer... " />
+            <marker date="1510582299868" expanded="true" signature="4925:5075" ph="INSERT INTO Customer... " />
+            <marker date="1510582299868" expanded="true" signature="5828:5860" ph="SELECT * FRO... Cart" />
+            <marker date="1510582299868" expanded="true" signature="5828:5877" ph="SELECT * FRO... Cart" />
+            <marker date="1510582299868" expanded="true" signature="5828:5878" ph="SELECT * FRO... Cart" />
+            <marker date="1510582299868" expanded="true" signature="5828:5879" ph="SELECT * FRO... Cart" />
+            <marker date="1510582299868" expanded="true" signature="6015:6049" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6015:6050" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6015:6051" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6015:6065" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6015:6082" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6168:6238" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6355:6367" ph="INSERT INTO uSER... " />
+            <marker date="1510582299868" expanded="true" signature="6355:6390" ph="INSERT INTO User_Cart... " />
+            <marker date="1510582299868" expanded="true" signature="6473:6543" ph="UPDATE Cart " />
+            <marker date="1510582299868" expanded="true" signature="6747:6915" ph="SELECT * FRO... Cart" />
+            <marker date="1510582299868" expanded="true" signature="6747:6957" ph="SELECT p.Nam... Cart" />
+            <marker date="1510582299868" expanded="true" signature="7735:7791" ph="SELECT Quant... cart" />
+            <marker date="1510582299868" expanded="true" signature="7916:7950" ph="DELETE FROM " />
+            <marker date="1510582299868" expanded="true" signature="7916:7963" ph="DELETE FROM " />
+            <marker date="1510582299868" expanded="true" signature="8031:8101" ph="UPDATE Batch... " />
+            <marker date="1510582299868" expanded="true" signature="8442:8686" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="8442:8704" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="8442:8715" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="8442:8726" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="9559:9837" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="9559:9852" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="9559:9874" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="10715:10977" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="10715:10995" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="10715:11009" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="10715:11031" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="11876:12165" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="11876:12187" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="13981:14028" ph="SELECT * FRO... Medicine_Details" />
+            <marker date="1510582299868" expanded="true" signature="14139:14190" ph="InSERT INTO Medicine_Details... " />
+            <marker date="1510582299868" expanded="true" signature="14261:14306" ph="SELECT * FRO... Product_Details" />
+            <marker date="1510582299868" expanded="true" signature="14416:14482" ph="INSERT INTO Product_Details... " />
+            <marker date="1510582299868" expanded="true" signature="14617:14668" ph="SELECT * FRO... Compartment" />
+            <marker date="1510582299868" expanded="true" signature="14810:14847" ph="INSERT INTO Compartment... " />
+            <marker date="1510582299868" expanded="true" signature="14922:14959" ph="SELECT * FRO... WholeSeller" />
+            <marker date="1510582299868" expanded="true" signature="14922:14961" ph="SELECT * FRO... WholeSeller" />
+            <marker date="1510582299868" expanded="true" signature="15076:15128" ph="INSERT INTO WholeSeller... " />
+            <marker date="1510582299868" expanded="true" signature="15241:15282" ph="SELECT * FRO... Purchase_Record" />
+            <marker date="1510582299868" expanded="true" signature="15241:15284" ph="SELECT * FRO... Purchase_Record" />
+            <marker date="1510582299868" expanded="true" signature="15396:15448" ph="INSERT INTO Purchase_Record... " />
+            <marker date="1510582299868" expanded="true" signature="15538:15644" ph="INSERT INTO Batch_Details... " />
+            <marker date="1510582299868" expanded="true" signature="15538:15648" ph="INSERT INTO Batch_Details... " />
+            <marker date="1510582299868" expanded="true" signature="15538:15684" ph="INSERT INTO Batch_Details... " />
+            <marker date="1510582299868" expanded="true" signature="16197:16241" ph="SELECT * FRO... Repl_Record" />
+            <marker date="1510582299868" expanded="true" signature="16463:16503" ph="DELETE FROM " />
+            <marker date="1510582299868" expanded="true" signature="16693:16990" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="17941:18256" ph="SELECT p.Nam... Product_details" />
+            <marker date="1510582299868" expanded="true" signature="19607:19694" ph="UPDATE Produ... " />
+            <marker date="1510582299868" expanded="true" signature="19787:19860" ph="UPDATE Medic... " />
+            <marker date="1510582299868" expanded="true" signature="19927:19999" ph="Update Batch... " />
+            <marker date="1510582299868" expanded="true" signature="20567:20604" ph="SELECT * FRO... WholeSeller" />
+            <marker date="1510582299868" expanded="true" signature="20855:20909" ph="INSERT INTO WholeSeller... " />
+            <marker date="1510582299868" expanded="true" signature="21438:21564" ph="SELECT b.Who... Batch_Details" />
+            <marker date="1510582299868" expanded="true" signature="21751:21806" ph="UPDATE Batch... " />
+            <marker date="1510582299868" expanded="true" signature="21868:21954" ph="INSERT INTO Repl_Record... " />
+            <marker date="1510582299868" expanded="true" signature="22379:22414" ph="DELETE FROM " />
+            <marker date="1510582299868" expanded="true" signature="22632:22829" ph="SELECT p.Nam... Product_Details" />
+            <marker date="1510582299868" expanded="true" signature="23425:23450" ph="SELECT * FRO... WholeSeller" />
+            <marker date="1510582299868" expanded="true" signature="24005:24116" ph="SELECT p.PRI... Purchase_Record" />
+            <marker date="1510582299868" expanded="true" signature="24681:24836" ph="SELECT p.PRI... " />
+            <marker date="1510582299868" expanded="true" signature="25468:25516" ph="SELECT Batch... SR_Prod" />
+            <marker date="1510582299868" expanded="true" signature="25700:25745" ph="SELECT Name Batch_Details" />
+            <marker date="1510582299868" expanded="true" signature="26287:26339" ph="SELECT Batch... Cart" />
+            <marker date="1510582299868" expanded="true" signature="26512:26607" ph="INSERT INTO Sale_Record... " />
+            <marker date="1510582299868" expanded="true" signature="26690:26746" ph="SELECT SRID Sale_Record" />
+            <marker date="1510582299868" expanded="true" signature="26690:26750" ph="SELECT SRID Sale_Record" />
+            <marker date="1510582299868" expanded="true" signature="27007:27026" ph="INSERT INTO SR_Prod... " />
+            <marker date="1510582299868" expanded="true" signature="27007:27043" ph="INSERT INTO SR_Prod... " />
+            <marker date="1510582299868" expanded="true" signature="27119:27141" ph="DELETE FROM " />
+            <marker date="1510582299868" expanded="true" signature="27119:27153" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminhome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="39" column="86" selection-start-line="39" selection-start-column="86" selection-end-line="39" selection-end-column="86" />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#span#0;n#form#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,251 @@
+{% extends 'adminbase.html' %}
+{% load static %}
+{% block content %}
+	  <div class='container'>
+{% if messages %}
+
+<div class="container">
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="color: black;">Message</h4>
+        </div>
+        <div class="modal-body">
+    <ul class="messages">
+      {% for message in messages %}
+
+          <p style="color: black;">{{ message }}</p>
+      {% endfor %}
+    </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<script type="text/javascript">
+      $('#myModal').modal('show');
+</script>
+{% endif %}
+        <form class="form" method="post" action="{% url 'addproduct' %}">
+            {% csrf_token %}
+
+            <legend>Product Details</legend>
+            <fieldset>
+            <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Name
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="name" required>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Manufactured By
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="mfg_by" >
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Description
+                </label>
+                <div class="col-sm-10">
+                    <textarea rows="6" cols="22" name="desc" ></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2">
+                    MedID
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="medid"  value="Negative" required>
+                </div>
+            </div>
+
+              <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Category
+                </label>
+                <div class="col-sm-10">
+                    <select name="category">
+                        <option value="Personal Care">Personal Care</option>
+                        <option value="Medicine">Medicine</option>
+                        <option value="Baby Products">Baby Products</option>
+                    </select>
+                </div>
+            </div>
+            </fieldset>
+            <br>
+            <legend>Medicine Details(Leave Blank if not required)</legend>
+            <fieldset>
+                <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Salt
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="salt" >
+                </div>
+                <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Prescription
+                </label>
+                <div class="col-sm-10">
+                    <input type="radio" name="prescription" value="N" checked>Not Required
+                    <input type="radio" name="prescription" value="Y">Required
+
+                </div>
+            </fieldset>
+            <br>
+            <legend>Batch Details</legend>
+            <fieldset>
+                <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Whole Price
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="whole_price" required>
+                </div>
+            </div>
+                <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Retail Price
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="retail_price" required>
+                </div>
+            </div>
+                <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Manufacturing Date
+                </label>
+                <div class="col-sm-10">
+                    <input type="date" name="mfg_date" required>
+                </div>
+                    <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Expiry Date
+                </label>
+                <div class="col-sm-10">
+                    <input type="date" name="exp_date" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Quantity
+                </label>
+                <div class="col-sm-10">
+                    <input type="number" min=1 step="1" name="quantity" required>
+                </div>
+
+            </fieldset>
+            <br>
+            <Legend> Purchase Details</Legend>
+            <fieldset>
+                <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Purchase Record ID
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="prid" required>
+                </div>
+                <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Wholeseller ID
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="wsid" required>
+                </div>
+                 <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Total Price
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="total_price" >
+                </div>
+                 <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Purchase Date
+                </label>
+                <div class="col-sm-10">
+                    <input type="date" name="p_date">
+                </div>
+                 <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Quantity
+                </label>
+                <div class="col-sm-10">
+                    <input type="number" min=1 step="1" name="total_quantity" >
+                </div>
+            </fieldset>
+            <br>
+            <legend>Compartment Details (Leave Blank if already added)</legend>
+            <fieldset>
+                <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Compartment No.
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="cid" >
+                </div>
+                 <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Shelf No.
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="shelfid" >
+                </div>
+            </fieldset>
+
+            <legend>WholeSeller Details(Leave Blank if already added)</legend>
+            <fieldset>
+                 <div class="form-group">
+                <label class="control-label col-sm-2">
+                    WholeSeller Name
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="W_name" >
+                </div>
+                <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Address
+                </label>
+                <div class="col-sm-10">
+                    <input type="textare" col="50" name="W_addr" >
+                </div>
+                 <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Email
+                </label>
+                <div class="col-sm-10">
+                    <input type="email" name="W_email" >
+                </div>
+                 <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Phone
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="W_phone" pattern="^\d{10}$">
+                </div>
+            </fieldset>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+            <br>
+        </form>
+        </div>
+
+{% endblock %}

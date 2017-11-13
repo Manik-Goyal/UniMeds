@@ -1,0 +1,136 @@
+{% extends 'adminbase.html' %}
+{% load static %}
+{% block content %}
+
+
+<div class="container">
+{% if messages %}
+
+<div class="container">
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="color: black;">Message</h4>
+        </div>
+        <div class="modal-body">
+    <ul class="messages">
+      {% for message in messages %}
+
+          <p style="color: black;">{{ message }}</p>
+      {% endfor %}
+    </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<script type="text/javascript">
+      $('#myModal').modal('show');
+</script>
+{% endif %}
+
+    <h2>All Products</h2>
+    {%  for v in data %}
+      <div class="row">
+        <div class="container">
+            <form class="form" method="post" action="{% url 'update' %}">
+                {% csrf_token %}
+          <div class="card mt-4">
+            <div class="card-body">
+               <div class="form-group">
+                <h3 class="card-title">
+                <label class="control-label col-sm-5">
+                    Name
+                </label>
+                <div class="col-sm-7">
+                    <p>{{ v.name }}</p>
+                </div>
+                    </h3>
+            </div>
+                <div class="form-group">
+                <label class="control-label col-sm-5">
+                    Price
+                </label>
+                <div class="col-sm-7">
+                    <input type="text" name="price" value={{ v.price }} required>
+                </div>
+            </div>
+                <div class="form-group">
+                <label class="control-label col-sm-5">
+                    Manufactured By
+                </label>
+                <div class="col-sm-7">
+                    <input type="text" name="mfg"  value="{{ v.mfg }}" required>
+                </div>
+            </div>
+                <div class="form-group">
+                <label class="control-label col-sm-5">
+                    Salt
+                </label>
+                <div class="col-sm-7">
+                    <input type="text" name="salt" value="{{ v.salt }}"required>
+                </div>
+            </div>
+                <div class="form-group">
+                <label class="control-label col-sm-5">
+                    Description
+                </label>
+                <div class="col-sm-7">
+                    <textarea rows="6" cols="22" name="desc" required>{{ v.desc }}</textarea>
+                </div>
+            </div>
+                <div class="form-group">
+                <label class="control-label col-sm-5">
+                    Category ('Personal Care','Medicine','Baby Product')
+                </label>
+                <div class="col-sm-7">
+                    <input type="text" name="category" value="{{ v.category }}" pattern="^Personal Care$|^Medicine$|^Baby Product$" required>
+                </div>
+            </div>
+                <div class="form-group">
+                <label class="control-label col-sm-5">
+                    Prescription (Y/N)
+                </label>
+                <div class="col-sm-7">
+                    <input type="text" name="presc" value={{ v.presc }} pattern="Y|N" required>
+                </div>
+            </div>
+             <div>
+                <label class="control-label col-sm-5">
+                    Quantity:
+                </label>
+                <div class="col-sm-7">
+                    <input type="number" name="quantity"  min=1 step="1" value={{ v.quantity }} required>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="card card-outline-secondary my-4">
+            <div class="card-body">
+
+               <input type="hidden" name="name" value={{ v.name }}>
+               <input type="hidden" name="batchno" value={{ v.BatchNo }}>
+               <input type="hidden" name="medid" value={{ v.medid }}>
+              &nbsp;<button class="btn btn-success" type="submit">Update</button>
+            </div>
+              </form>
+              <hr class="featurette-divider">
+          </div>
+        </div>
+      </div>
+
+    {% endfor %}
+    </div>
+    <br><br>
+
+{%  endblock %}

@@ -1,0 +1,149 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+	  <div class='container'>
+      {% if messages %}
+
+        <div class="container">
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title" style="color: black;">Message</h4>
+                </div>
+                <div class="modal-body">
+            <ul class="messages">
+              {% for message in messages %}
+
+                  <p style="color: black;">{{ message }}</p>
+              </li>
+              {% endfor %}
+            </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <script type="text/javascript">
+              $('#myModal').modal('show');
+        </script>
+        {% endif %}
+        <form name="register" class="form" method="post" action="{% url 'register' %}" >
+            {% csrf_token %}
+            <div class="title-row">
+                <h1>Login</h1>
+            </div>
+            <legend>Personal Details</legend>
+            <fieldset>
+            <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Customer ID(Unique)
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="user_id" value="{{ request.POST.user_id }}" required>
+                </div>
+            </div>
+             <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Name
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="name" value="{{ request.POST.name }}" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Password
+                </label>
+                <div class="col-sm-10">
+                    <input type="password" name="password" value="{{ request.POST.password }}" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Date of Birth
+                </label>
+                <div class="col-sm-10">
+                    <input type="date" name="dob" value="{{ request.POST.dob }}" required>
+                 </div>
+
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Email ID
+                </label>
+                <div class="col-sm-10">
+                    <input type="email" name="email" value="{{ request.POST.email }}">
+                </div>
+            </div>
+             <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Phone No. (+91)
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="phone" value="{{ request.POST.phone }}" pattern="^\d{10}$" required>
+                </div>
+            </div>
+            </fieldset>
+
+            <legend>Adress</legend>
+            <fieldset>
+             <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Apartment
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="apt_name" value="{{ request.POST.apt_name }}" required>
+                </div>
+            </div>
+             <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Street
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="street_name" value="{{ request.POST.street_name }}" required>
+                </div>
+            </div>
+             <div class="form-group">
+                <label class="control-label col-sm-2">
+                    City
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="city" value="{{ request.POST.city }}" required>
+                </div>
+            </div>
+             <div class="form-group">
+                <label class="control-label col-sm-2">
+                    State
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="state" value="{{ request.POST.state }}" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2">
+                    Zip
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" name="zip" value="{{ request.POST.zip }}" pattern="^\d{6}$" required>
+                </div>
+            </div>
+            </fieldset>
+            <div>
+                <button type="submit">Register</button>
+            </div>
+        </form>
+
+    </div>
+        <div class=push></div>
+</div>
+{% endblock %}

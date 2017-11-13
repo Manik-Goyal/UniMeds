@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="wrapper">
+
+        <div class="jumbotron">
+      <div class="container">
+        <h1>Welcome to UniMeds!</h1>
+        <p>This is the India's leading Online Pharmacy. Yoy can buy any general medicine and first aid medicines.
+            Personal Care and Baby products are also available. </p>
+        <p><a class="btn btn-primary btn-lg" href="{% url 'about'%}" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
+
+    
+
+        <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="{%  static 'pics/4.jpg' %}" alt="Generic placeholder image" width="140" height="140">
+          <h2>Personal Care</h2>
+          <p>Get Personal Care Products for your daily needs at cheap prices. We have products from all the lead
+          leading brands. Click the button bellow to view them now</p>
+          <p><a class="btn btn-default" href="{% url 'product_pc'%}" role="button">View Products &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="{%  static 'pics/5.jpg' %}" alt="Generic placeholder image" width="140" height="140">
+          <h2>General Medicines</h2>
+          <p> Medicines for all illness and diseases. We have it all at one stop for you. From Prescription Drugs to
+          General Medicines we have it all at our store. Click the button bellow to view them now</p>
+            <p><a class="btn btn-default" href="{% url 'product_medicine'%}" role="button">View Products &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="{%  static 'pics/6.jpg' %}" alt="Generic placeholder image" width="140" height="140">
+          <h2>Baby Products</h2>
+          <p>Best Baby Products for your child. From their nutritional needs to their health we have it all
+          at cheap prices. Click the button bellow to view them now.</p>
+            <p><a class="btn btn-default" href="{% url 'product_baby'%}" role="button">View Products &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div>
+
+        <div class="container">
+
+            <hr class="featurette-divider" >
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Products at prices <span class="text-muted">That'll blow your mind.</span></h2>
+          <p class="lead"></p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="{%  static 'pics/1.jpg' %}" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Every Cereal Flavour <span class="text-muted">You want.</span></h2>
+          <p class="lead"></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="featurette-image img-fluid mx-auto" src="{%  static 'pics/7.jpg' %}"alt="Generic placeholder image">
+        </div>
+      </div>
+
+
+      <hr class="featurette-divider">
+    </div>
+        <div class=push></div>
+</div>
+{%  endblock %}

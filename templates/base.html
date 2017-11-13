@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <title>UniMeds</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{%  static 'css/bootstrap.css' %}">
+  <link href="{%  static 'css/carousel.css' %}" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="{%  static 'js/bootstrap.min.js' %}"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+  <script src= "https://www.payumoney.com/Api/REST/op/buttonScript" async="true" > </script>
+  <style>
+    .navbar {
+        margin-bottom: 50px;
+        border-radius: 0;
+    }
+     .jumbotron {
+      margin-bottom: 0;
+    }
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+      body{
+          padding-top: 70px;
+      }
+    html { height: 100% }
+    body { height: 100%; background-color:#fffefe ;padding-top: 70px}
+    #map-outer {height: 600px; padding: 20px; border: 2px solid #CCC; margin-bottom: 20px; background-color:#FFF }
+    #map-container { height: 400px }
+    @media all and (max-width: 991px) {
+    #map-outer  { height: 650px }
+		}
+      .wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+    {% comment %}.footer, .push {
+	position:fixed;
+	left:0;
+	bottom:0;
+	right:0;
+    height: 120px;
+	}{% endcomment %}
+  </style>
+</head>
+<body>
+    <div class="wrapper">
+    <div class="navbar-wrapper">
+      <div clas="container">
+
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="{% url 'home'%}">UniMeds</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="{% url 'home'%}">Home</a></li>
+                <li><a href="{% url 'about'%}">About</a></li>
+                <li><a href="{% url 'contact'%}">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+
+                    <li><a href="{% url 'product'%}">All Products</a></li>
+                     <li role="separator" class="divider"></li>
+                    <li><a href="{% url 'product_medicine'%}">General Medicines</a></li>
+                     <li role="separator" class="divider"></li>
+                    {% comment %}<li><a href="#">Prescription</a></li>{% endcomment %}
+
+                    <li><a href="{% url 'product_pc'%}">Personal Care</a></li>
+                      <li role="separator" class="divider"></li>
+                    <li><a href="{% url 'product_baby'%}">Baby Products</a></li>
+                      <li role="separator" class="divider"></li>
+                  </ul>
+                </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+            {% if request.user.username == '' %}
+            <li><a href="{% url 'login'%}">Login</a></li>
+            <li><a href="{% url 'register'%}">Register</a></li>
+                    {% else %}
+            <li><a href="{% url 'logout'%}">Logout</a></li>
+            <li><a href="{% url 'cart'%}">Cart</a></li>
+                    {% endif %}
+          </ul>
+
+            </div>
+          </div>
+        </nav>
+
+      </div>
+        <div class=push></div>
+</div>
+{% block content %}
+{% endblock %}
+
+
+</body>
+</html>
